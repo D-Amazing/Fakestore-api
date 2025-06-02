@@ -1,0 +1,53 @@
+/* App.css */
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #fef9f4, #fff4e6);
+  color: #333;
+}
+
+/* Home container – centered at the top */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px; /* space from top of page */
+  padding-bottom: 40px;
+  min-height: 100vh;
+}
+
+/* Fun headline */
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff7f50;
+  margin-bottom: 1rem;
+}
+
+/* Subheading */
+.home-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* Button */
+.home-button {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  background-color: #ffd166;
+  border: none;
+  border-radius: 12px;
+  color: #333;
+  transition: background-
+color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+.home-button:hover {
+  background-color: #ffb347;
+  transform: scale(1.05);
+}
